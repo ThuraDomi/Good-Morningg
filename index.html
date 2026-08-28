@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#080d20">
+  <title>Good Morning ☀️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" id="sky">
+    <div class="stars" id="stars"></div>
+    <div class="moon">🌙</div>
+    <button class="sun" id="sun" aria-label="Tap the sun">☀️</button>
+    <div class="cloud c1"></div>
+    <div class="cloud c2"></div>
+    <div class="cloud c3"></div>
+  </div>
+
+  <main>
+    <section class="intro" id="intro">
+      <div class="clock" id="liveClock"><span id="clockTime">--:--</span> <small id="clockPeriod">AM</small></div>
+      <p>psst… are you awake?</p>
+      <button class="wake-btn" id="wakeBtn">Wake up ☀️</button>
+    </section>
+
+    <section class="morning" id="morning">
+      <div class="room">
+        <div class="curtain left"></div>
+        <div class="curtain right"></div>
+
+        <div class="window">
+          <i class="vbar"></i>
+          <i class="hbar"></i>
+        </div>
+
+        <div class="desk">
+          <div class="book"></div>
+          <div class="coffee">
+            <div class="steam s1"></div>
+            <div class="steam s2"></div>
+            <div class="steam s3"></div>
+            <div class="cup"><span></span></div>
+            <div class="handle"></div>
+            <div class="saucer"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-card">
+        <h1 id="hello"></h1>
+        <p id="wish"></p>
+      </div>
+    </section>
+  </main>
+
+  <div class="heart-layer" id="heartLayer"></div>
+  <div class="particles" id="particles"></div>
+  <script src="script.js"></script>
+</body>
+</html>
